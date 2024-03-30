@@ -7,9 +7,9 @@ const exclusionList = require('metro-config/src/defaults/exclusionList')
 const path = require('path')
 
 const packageDirs = [
-  path.resolve(__dirname, '../core'),
-  path.resolve(__dirname, '../../oca'),
-  path.resolve(__dirname, '../../verifier'),
+  // path.resolve(__dirname, '../core'),
+  // path.resolve(__dirname, '../../oca'),
+  // path.resolve(__dirname, '../../verifier'),
 ]
 
 const watchFolders = [...packageDirs]
